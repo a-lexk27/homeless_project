@@ -1,0 +1,58 @@
+<!doctype html>
+ <html>
+ <head>
+     <meta charset="UTF-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>index</title>
+     <style type="text/css">
+ 		body {margin: 0; background-color: #fff}
+ 
+ 		ul.topnav {
+ 			list-style-type: none;
+ 			margin: 0;
+ 			padding: 0;
+ 			overflow: hidden;
+ 			background-color: #333;
+ 		}
+ 		
+ 		ul.topnav li {float: left}
+ 		
+ 		ul.topnav li a {
+ 			display: block;
+ 			color: white;
+ 			text-align: center;
+ 			padding: 14px 16px;
+ 			text-decoration: none;
+ 		}
+ 		
+ 		ul.topnav li a:hover:not(.active) {background-color: #4CAF50;}
+ 		
+ 		ul.topnav li a.active {background-color: #4CAF50;}
+ 		
+ 		ul.topnav li.right {float: right;}
+ 		
+ 		@media screen and (max-width: 600px){
+ 			ul.topnav li.right, 
+ 			ul.topnav li {float: none;}
+ 			
+ 			
+ 		}
+ 		.center{text-align: center; align-content: center; align-items: center; align-self: center}
+ 		#top{text-align: center; margin-top: 80px}
+ 		table{margin: 0 auto; width: 80%}
+ 		table td{text-align: left}
+ 		.left{margin-right: 10px}
+ 		.right{margin-left: 10px}
+ 		#main p{white-space: pre-wrap}
+ 	</style>
+ </head>
+ 
+ <body>
+     <ul class="topnav" >
+       <li><a class="active" href="#">Home</a></li>
+       <li><a href="#">Advice</a></li>
+       <li><a href="#">Resources Page</a></li>
+       <li><a href="#">About Us</a></li>
+     </ul><br>
+</body>
+</html> 
